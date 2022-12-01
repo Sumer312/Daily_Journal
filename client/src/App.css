@@ -1,0 +1,93 @@
+body{
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  position: static;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+  color: #94f222 !important;
+}
+
+.footer-padding {
+padding-bottom: 60px;
+}
+
+.footer {
+position: fixed;
+text-align: center;
+bottom: 0;
+width: 100%;
+height:50px;
+background-color: #20c997;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 18px;
+  color: #fff;
+}
+.footer a{
+  color: rgb(48, 48, 48) ;
+  text-decoration:none;
+}
+.footer p a:hover{
+  color : #fff!important;
+}
+.File{
+  max-width: 100%;
+  height:auto;
+}
+
+button.btn.btn-outline-danger{
+ display: flex;
+ justify-content: flex-end;
+ position : absolute;
+ top: 10px;
+ right: 10px;
+
+}
+
+i.bi.bi-trash3{
+  font-size: 20px; 
+}
+
+ul {
+  list-style: none;
+}
+
+li.list-group-item{
+  display : flex;
+  justify-content : left;
+  list-style : none; 
+  list-style-position : outside;
+  text-align : left;
+  padding : 10px;
+  margin : 8px;
+  width : auto;
+  height : auto;
+  border : 2px solid #20c997;
+  color : white;
+  background-color : #212529;
+  border-radius : 7px;
+  cursor : pointer
+}
+
+li.list-group-item:hover{
+  background-color: #000!important;
+}
+
