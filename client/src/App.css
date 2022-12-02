@@ -3,6 +3,11 @@ body{
   background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
 }
 
+.form-control:focus{
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem #a5f83f;
+}
+
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -32,7 +37,8 @@ text-align: center;
 bottom: 0;
 width: 100%;
 height:50px;
-background-color: #20c997;
+background-color: #212529;
+color : #fff
 }
 
 .footer p {
@@ -41,24 +47,13 @@ background-color: #20c997;
   font-size: 18px;
   color: #fff;
 }
-.footer a{
-  color: rgb(48, 48, 48) ;
-  text-decoration:none;
-}
-.footer p a:hover{
-  color : #fff!important;
-}
-.File{
-  max-width: 100%;
-  height:auto;
-}
 
-button.btn.btn-outline-danger{
+button.btn.btn-outline-light{
  display: flex;
  justify-content: flex-end;
  position : absolute;
- top: 10px;
- right: 10px;
+ top: 3%;
+ right: 1%;
 
 }
 
@@ -80,7 +75,7 @@ li.list-group-item{
   margin : 8px;
   width : auto;
   height : auto;
-  border : 2px solid #20c997;
+  border : 2px solid #fd7e14;
   color : white;
   background-color : #212529;
   border-radius : 7px;
@@ -88,6 +83,7 @@ li.list-group-item{
 }
 
 li.list-group-item:hover{
-  background-color: #000!important;
+  color: #000!important;
+  background-color: #fd7e14!important;
 }
 

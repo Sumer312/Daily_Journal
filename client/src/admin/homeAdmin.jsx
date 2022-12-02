@@ -48,15 +48,15 @@ function HomeAdmin() {
                         <ul className='list-group list-group-horizontal'>
                             <li style={{"position" : "relative"}}><img src={element.coverImage} alt={null} /></li>
                             <ul className='list-group' style={{"marginLeft" : "5%"}}>
-                            <li><h3>{element.title}</h3></li>
-                            <li><h6>{element.snippet}</h6></li>
+                            <li><p className='display-6'>{element.title}</p></li>
+                            <li><p className='fw-light'>{element.snippet}</p></li>
                             </ul>
                             <li><button onClick={e => {
                                                     e.preventDefault();
                                                     deleteData(element);
                                                     window.location.reload();
                                                 }} 
-                                        className='btn btn-outline-danger'>
+                                        className='btn btn-outline-light'>
                                 <i className="bi bi-trash3" />
                                 </button>
                             </li>

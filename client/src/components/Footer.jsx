@@ -4,7 +4,7 @@ function Footer(){
     return(
         <div className="footer-padding">
             <div className="footer">
-                <p style={{"color" : "black"}}>Made by Sumer & Abhishek</p>
+                <p>Made by Sumer & Abhishek</p>
             </div>
         </div>
     )
