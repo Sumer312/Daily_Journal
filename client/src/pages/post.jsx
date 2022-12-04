@@ -30,9 +30,9 @@ export default function Post(){
         <>
         <Navbar3 />
         <div className="container">
-            <h1>{singlePost.title}</h1>
+            <p className="display-2">{singlePost.title}</p>
             <br />
-            <h3>{singlePost.snippet}</h3>
+            <p className="display-6">{singlePost.snippet}</p>
             <br />
             <div className="ql-editor" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(singlePost.body)}} />
         </div>
