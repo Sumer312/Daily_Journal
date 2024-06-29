@@ -37,7 +37,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className='container overflow-scroll p-4'>
+      <div className='container overflow-scroll p-4 mb-5'>
         <h1>Home</h1>
         <p>{homeStartingContent}</p>
         <ul className='list-group'>

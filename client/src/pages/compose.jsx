@@ -77,7 +77,7 @@ function Compose() {
   return (
     <>
       <Navbar />
-      <div className="container overflow-scroll p-5">
+      <div className="container overflow-scroll p-4 mb-5">
         <br />
         <label htmlFor="posttitle">Title</label>
         <input
