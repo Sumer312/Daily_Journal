@@ -8,8 +8,8 @@ const connectDB = require("./config/DBconn");
 
 
 connectDB();
-app.use(express.urlencoded({extended:true, limit : "50mb"}));
-app.use(express.json({limit : "50mb"}));
+app.use(express.urlencoded({ extended: true, limit: "50mb" }));
+app.use(express.json({ limit: "50mb" }));
 app.use(cors());
 
 app.post("/postImage", postImageRouter)
@@ -18,5 +18,5 @@ app.delete("/Content", ContentRouter)
 app.post("/Content", ContentRouter)
 
 app.listen(PORT, () => {
-    console.log(`Server is running on ${PORT}`);
+  console.log(`Server is running on ${PORT}`);
 })
